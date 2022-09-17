@@ -1,48 +1,160 @@
 <!doctype html>
-<html>
+<html lang="es">
+
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<title>Cinemática</title>
+	<meta name="description" content="Servicio social, clase 2, cinemática">
+	<meta name="author" content="Freddy Elí Campillo Dorantes">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="mycss/servicio.css">
+	<link rel="stylesheet" href="dist/theme/night.css" id="theme">
 
-		<title>reveal.js</title>
-
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
-
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<!-- theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2
-						<aside class="notes">
-						<p>Some notes</p>
-						</aside>
-						<p>Some slide text</p>
-						<aside class="notes">
-						<p>and some more notes</p>
-					</aside>
+				<section>
 				</section>
+<section data-background-image="assets/phy.jpg" data-background-size="contain"> 
+	<h2 style="font-weight: bold;color: white; -webkit-text-stroke-width: 4px; -webkit-text-stroke-color: black;">Física</h2>
+</section>
+
+<section data-background-image="assets/map.jpg" data-background-size="contain"> 
+</section>
+
+<section data-background-video="./assets/La Curiosidad en la Ciencia.mp4" data-background-size="contain">
+</section>
+
+<section data-background-color="rgb(70, 70, 255)" data-background-image="./assets/intro_fall.png" data-background-position="right" data-background-size="contain"style="text-align:rigth">
+</section>
+
+<section>
+	<h2 class="r-fit-text">Free fall experiment</h2>
+<img class="r-stretch" src="./assets/intro_caida.png">
+</section>
+
+<section>
+	<h2 class="r-fit-text">Free fall experiment</h2>
+<img class="r-stretch" src="./assets/intro_caida2.png">
+</section>
+
+<section data-background-video="./assets/bowl.mp4" data-background-size="contain">
+</section>
+
+
+<section data-background-image="./assets/cine_italy_map.jpg" data-background-position="left" data-background-size="contain"style="text-align:rigth">
+</section>
+
+<section data-background-image="./assets/cine_italy_map.jpg" data-background-position="left" data-background-size="contain"style="text-align:rigth">
+<img  style="float: right; padding:0px; border:0px; margin:0px" width="40%" src="./assets/cine_pisa.jpg">
+</section>
+
+<section data-background-image="./assets/cine_galileo.jpg" data-background-position="right" data-background-size="contain" style="text-align: left" data-auto-animate>
+	<!--	<p style="text-align: left">  AAAAA</p>-->
+	<h2>Galileo Galilei </h2>
+	<div style="width: 40%; margin-left: 20px">
+		<p> Italian astronomer, physicist and engineer<br>     
+	<small style="font-size: 30px"> (1564 – 1642)</small></p>
+	</div>
+</section>
+<section data-background-image="./assets/cine_galileo.jpg" data-background-position="right" data-background-size="contain" style="text-align: left" data-auto-animate>
+	<!--	<p style="text-align: left">  AAA</p>-->
+	<h2>Galileo Galilei </h2>
+	<div style="width: 40%; margin-left: 20px">
+		<p> Astrónomo, físico e ingeniero italiano<br>     
+	<small style="font-size: 30px"> (1564 – 1642)</small></p>
+	</div>
+</section>
+<section data-background-image="./assets/cine_galileo.jpg" data-background-position="right" data-background-size="contain" style="text-align: left" data-auto-animate>
+	<!--	<p style="text-align: left">  AAAAA</p>-->
+	<h2>Galileo Galilei </h2>
+	<ul>
+		<li>Rapidez y velocidad</li>
+		<li>Gravedad y caída libre</li>
+		<li>Principio de relatividad</li>
+		<li>Inercia</li>
+		<li>Proyectiles</li>
+	</ul>
+</section>
+
+<section data-background-image="./assets/cine_galileo.jpg" data-background-position="right" data-background-size="contain" style="text-align: left" data-auto-animate>
+	<!--	<p style="text-align: left">  AAAAA</p>-->
+	<h2>Galileo Galilei </h2>
+	<ul>
+		<li>Speed y velocity</li>
+		<li>Gravity y free fall</li>
+		<li>Principles of relativity</li>
+		<li>Inertia</li>
+		<li>Projectiles</li>
+	</ul>
+</section>
+<section  data-background-image="./assets/cine_galileo2.jpg" >
+</section>
+</section>
+</section>
+
+
+
+				<section>
+					<h1 class="r-fit-text">Questions?  </h1>
+				</section>
+
 			</div>
+
 		</div>
 
 		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+			Reveal.initialize({ slideNumber: 'c/t' });
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			const loadScript = src => {
+				return new Promise((resolve, reject) => {
+						const script = document.createElement('script');
+						script.type = 'text/javascript';
+						script.onload = resolve;
+						script.onerror = reject;
+						script.src = src;
+						document.head.append(script);
+				})
+			}
+
+			loadScript( 'plugin/highlight/highlight.js' ).then(() => {
+				Reveal.registerPlugin( RevealHighlight )
+			})
+		</script>
+		<script src="./plugin/math/math.js"></script>
+		<script>
+			Reveal.initialize({
+				history: true,
+				transition: 'linear',
+
+				mathjax2: {
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+
+				// There are three typesetters available
+				// RevealMath.MathJax2 (default)
+				// RevealMath.MathJax3
+				// RevealMath.KaTeX
+				//
+				// More info at https://revealjs.com/math/
+				//plugins: [ RevealMath.MathJax2 ]
+				//plugins: [ RevealMath.MathJax3 ]
+				plugins: [ RevealMath.KaTeX ]
 			});
 		</script>
+
 	</body>
 </html>
